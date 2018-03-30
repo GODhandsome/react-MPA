@@ -1,7 +1,8 @@
 因为要做基于react的多页面，可以使用create-react-app脚手架直接生成react项目，避免自己过多的配置。  
 `npm install create-react-app -g`       
 `create-react-app app-name`  
-生成项目结构如下![Image text](https://github.com/GODhandsome/react-MPA/blob/master/img-folder/1.png)
+生成项目结构如下
+![Image text](https://github.com/GODhandsome/react-MPA/blob/master/img-folder/1.png)
 `registerServiceWorker`文件可以删掉，是pwa用的。
 然后在src下创建多页面文件夹，并拷贝**App.js App.css index.js index,css**到每个文件夹下做入口文件。
 ![Image text](https://github.com/GODhandsome/react-MPA/blob/master/img-folder/2.png)
