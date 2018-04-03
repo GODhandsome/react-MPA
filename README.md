@@ -16,3 +16,4 @@
 之后就可以开始项目的开发以及构建了。路由后面跟上对应的文件夹名就可以进行调试开发了。因为我们引用了antd-mobile，需要在babel配置引入，并且因为要用css module 需要单独配置less。<br/>
 开发完成以后生成文件目录如下<br/>
      ![Image text](https://github.com/GODhandsome/react-MPA/blob/master/img-folder/7.png)
+     css中引用背景图需要../在进行查找
